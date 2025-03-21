@@ -30,7 +30,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, null));
         }
         [Test]
-        public void Subtract_Valid()
+        public void Subtract_Valid_Lahm()
         {
             Assert.AreEqual(3, Program.Subtract("5", "2"));
             Assert.AreEqual(5, Program.Subtract("7", "2"));
