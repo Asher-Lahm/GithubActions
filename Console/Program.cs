@@ -43,7 +43,7 @@ namespace GithubActionsLab
                         default:
                             throw new ArgumentException("You did not select a valid option!");
                     }
-
+                    //change for a test push
                     var x = GetInput("Enter x: ");
                     var y = GetInput("Enter y: ");
                     var result = operation(x, y);
